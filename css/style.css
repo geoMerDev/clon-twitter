@@ -1,0 +1,148 @@
+.header-container {
+  margin-bottom: 34px;
+  max-width: 200px;
+}
+.header-container__logo-twiter {
+  color: var(--brand-color-icon);
+  font-size: 3rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.section-container {
+  padding: 34px;
+  display: grid;
+  gap: 15px;
+  /* margin-left: auto;  */
+}
+.article-container-titles{
+  font-weight: 700;
+  width: 90%;
+}
+.container-titles__title{
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.container-titles__subtitle {
+  font-size: 2.2rem;
+}
+.article-container-buttons {
+  max-width: 252px;
+}
+.buttons_button {
+  padding: 9px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1.4rem;
+  margin: 10px 0;
+  width: 274px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttons_button:hover {
+  background-image: linear-gradient(
+      rgba(131, 197, 255, 0.134),
+      rgba(131, 197, 255, 0.134)
+    );
+}
+
+.buttons_button--white {
+  border: 1px solid #f0e5e5;
+  background-color: var(--white);
+}
+.buttons_button--blue {
+  background-color: var(--brand-color);
+  color: var(--white);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.buttons_button--black {
+  border: 1px solid #465560;
+  background-color: transparent;
+  color: var(--brand-color);
+}
+.button__logo-google {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/300/300221.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+}
+.button__logo-appel {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url('https://icones.pro/wp-content/uploads/2021/04/icone-apple-symbole-logo-noir.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+}
+.container-buttons-separator {
+  text-align: center;
+  width: 284px;
+}
+.article-container-buttons .container-buttons__parrafo {
+  font-size: 1rem;
+  color: rgb(113, 118, 123);
+  line-height: 11px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  width: 284px;
+}
+.container-iniciar-title {
+  font-size: 16px;
+}
+.article-container-img {
+  width: 100%;
+  height: 166px;
+  background: url(https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-twiter--big {
+  color: var(--white);
+  font-size: 10rem;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+.footer-container li {
+  margin: 4px 0;
+}
+.footer-container__link {
+  font-size: 1.2rem;
+  color: rgb(113, 118, 123);
+  padding-right: 15px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.container-buttons-separator {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container-buttons-separator span {
+  font-size: 1.4rem;
+}
+.buttons-separator {
+  border-top: 1px solid #2f3336;
+  margin: 7px;
+  width: 95%;
+}

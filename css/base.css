@@ -1,0 +1,43 @@
+@media (prefers-color-scheme: dark){
+  :root {
+    --brand-color: #1d9bf0;
+    --brand-color-icon: #d6d9db;
+    --background-color: black;
+    --text-color: white;
+    --black:black;
+    --white: white;
+  }
+}
+@media (prefers-color-scheme: light){
+  :root {
+    --brand-color: #1d9bf0;
+    --brand-color-icon: #1d9bf0;
+    --background-color:  white;
+    --text-color:black;
+    --black:black;
+    --white: white;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+a {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+ul {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style:none;
+}
